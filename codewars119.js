@@ -1,4 +1,1 @@
-function mystery() {
-  let results = { sanity: "Hello" };
-  return results;
-}
+const mystery = () => ({ sanity: "Hello" });
