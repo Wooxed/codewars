@@ -1,0 +1,1 @@
+const alternate = (n, firstValue, secondValue) => Array.from({length: n}, (_, index) => !(index % 2) ? firstValue : secondValue)
