@@ -1,0 +1,1 @@
+const moonRating = (rating, g = Math.round(rating)) => `${'o'.repeat(g / 2)}${'c'.repeat(g % 2)}xxxxx`.slice(0, 5)
