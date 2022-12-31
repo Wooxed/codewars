@@ -1,0 +1,1 @@
+const getTheVowels = (word, vowels = 'aeiou') => word.split('').reduce((prev, curr) => prev + (curr === vowels[prev % vowels.length]), 0)
