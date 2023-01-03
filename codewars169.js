@@ -1,0 +1,1 @@
+const uncensor = (infected, discovered, index = 0) => infected.replace(/\*/g, element => discovered[index++])
