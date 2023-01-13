@@ -5,3 +5,5 @@ function solution(arr, options) {
     }
     return result;
 }
+
+const solution2 = (arr, options) => arr.map(el => el + 2 * options.modifier)
