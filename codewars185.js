@@ -1,0 +1,1 @@
+const outed = (meet, boss, key = Object.keys(meet)) => key.reduce((prev, curr) => prev + meet[curr] * (boss === curr ? 2 : 1), 0) / key.length > 5 ? 'Nice Work Champ!' : 'Get Out Now!'
