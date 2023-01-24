@@ -1,0 +1,2 @@
+const greatestCommonFactor = (numerator, denominator) => denominator ? greatestCommonFactor(denominator, numerator % denominator) : numerator
+const reduce = fraction => fraction.map(el => el / greatestCommonFactor(...fraction))
