@@ -6,4 +6,4 @@ const divisions = (n, divisor, result = 0) => {
 
 };
 
-const divisions2 = (n, divisor) => Math.floor(Mat.log(n) / Math.log(divisor))
+const divisions2 = (n, divisor) => Math.floor(Math.log(n) / Math.log(divisor))
