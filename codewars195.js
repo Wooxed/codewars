@@ -7,3 +7,7 @@ function rakeGarden(garden) {
     }
     return raked.join(' ')
 }
+
+const rakeGarden2 = garden => garden.split(' ')
+    .map(el => el !== 'rock' ? 'gravel' : el)
+    .join(' ')
