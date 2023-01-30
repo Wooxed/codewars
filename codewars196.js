@@ -15,3 +15,9 @@ function isNice(arr) {
         return false
     }
 }
+
+const isNice2 = arr => {
+    arr.length !== 0
+        ? arr.every(element => arr.some(element2 => element === element2 + 1 || element === element2 - 1))
+        : false
+}
