@@ -1,0 +1,1 @@
+var FindFunction = (func, arr) => arr.filter(func.find(isNaN))
