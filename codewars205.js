@@ -7,3 +7,6 @@ const closestMultiple10 = num => {
     }
     return num;
 };
+
+
+const closestMultiple10Second = num => Math.round(num / 10) * 10
