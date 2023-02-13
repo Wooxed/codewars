@@ -7,3 +7,5 @@ function friend(friends) {
     }
     return result
 }
+
+const friend2 = (friends) => friends.filter(el => el.length === 4)
