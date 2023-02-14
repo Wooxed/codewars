@@ -11,3 +11,5 @@ var isSquare = function (n) {
     }
     return false
 }
+
+var isSquare2 = n => Math.sqrt(n) % 1 === 0
