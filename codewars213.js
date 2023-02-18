@@ -8,3 +8,6 @@ function getNewNotes(salary, bills) {
     return salary / 5 | 0
 }
 
+
+const getNewNotes2 = (salary, bills) => Math.max(salary - bills.reduce((prev, curr) => prev + curr, 0), 0) / 5 | 0
+
