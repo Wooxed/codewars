@@ -1,0 +1,1 @@
+const predictAge = (...ages) => Math.hypot(...ages) / 2 | 0
