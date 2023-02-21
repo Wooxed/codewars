@@ -7,3 +7,6 @@ function numberOfRectangles(m, n) {
     }
     return result
 }
+
+
+const numberOfRectangles2 = (m, n) => m * n * ++m * ++n / 4
