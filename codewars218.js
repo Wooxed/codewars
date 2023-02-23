@@ -6,3 +6,5 @@ function smallEnough(a, limit) {
     }
     return true
 }
+
+const smallEnough2 = (a, limit) => a.every(el => el <= limit)
