@@ -5,3 +5,5 @@ function colourAssociation(array) {
     }
     return result
 }
+
+const colourAssociation2 = array =>  array.map(([color, meaning]) => ({[color]: meaning}))
