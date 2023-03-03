@@ -33,3 +33,5 @@ function wordsToMarks(string) {
     }
     return result
 }
+
+const wordsToMarks2 = string => string.split('').reduce((prev, curr) => prev + curr.charCodeAt() - 96, 0)
