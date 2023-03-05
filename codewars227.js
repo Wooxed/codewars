@@ -1,0 +1,1 @@
+const switcheroo = x => x.replace(/[ab]/g, el => el === 'a' ? 'b' : 'a')
