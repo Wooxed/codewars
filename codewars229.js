@@ -1,0 +1,1 @@
+const wordPattern = (word, low = word.toLowerCase()) => low.split('').map(el => [...new Set(low)].indexOf(el)).join('.')
