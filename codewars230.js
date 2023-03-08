@@ -1,0 +1,1 @@
+const makesTheSentence = (characterArray, sentenceString) => characterArray.sort().join('') === sentenceString.split(' ').join('').split('').sort().join('')
