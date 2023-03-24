@@ -1,0 +1,1 @@
+const productArray = numbers => numbers.map(el => numbers.reduce((prev, curr) => prev * curr) / el)
